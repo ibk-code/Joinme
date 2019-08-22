@@ -1,4 +1,4 @@
-@media (max-width: 700px){
+@media (width: 700px){
 	.wrapper img {
 	    height: inherit;
 	    position: absolute;
@@ -24,7 +24,85 @@
 	    left: 9rem;
 	}
 }
-@media (width: 768px){
+@media (min-width: 320px){
+	.img2 {
+	    left: 5rem !important;
+		top: 10rem;
+		object-fit: cover;
+		position: absolute !important;
+		height: 210px !important;
+		width: 158px !important;
+	}
+	.wrapper h4 {
+	    position: absolute;
+	    left: 4rem;
+	    top: 26rem;
+	    color: #FFC107;
+	}
+	.wrapper .btn {
+	    position: absolute;
+	    top: 0.5rem;
+   		left: 7rem;
+	}
+	.wrapper img {
+	    height: inherit;
+	    position: absolute;
+	    left: 0rem;
+	}
+}
+@media (min-width: 375px){
+	.img2 {
+	    left: 6rem !important;
+		top: 10rem;
+		object-fit: cover;
+		position: absolute !important;
+		height: 215px !important;
+		width: 185px !important;
+	}
+	.wrapper h4 {
+	    position: absolute;
+	    left: 5rem;
+	    top: 26rem;
+	    color: #FFC107;
+	}
+	.wrapper .btn {
+	    position: absolute;
+	    top: 0.5rem;
+    	left: 9rem;
+	}
+	.wrapper img {
+	    height: inherit;
+	    position: absolute;
+	    left: 0rem;
+	}
+}
+@media (min-width: 414px){
+	.img2 {
+	    left: 7rem !important;
+		top: 10rem;
+		object-fit: cover;
+		position: absolute !important;
+		height: 210px !important;
+		width: 196px !important;
+	}
+	.wrapper h4 {
+	    position: absolute;
+	    left: 5rem;
+	    top: 26rem;
+	    color: #FFC107;
+	}
+	.wrapper .btn {
+	    position: absolute;
+	    top: 0.5rem;
+	    left: 9rem;
+	}
+	.wrapper img {
+	    height: inherit;
+	    position: absolute;
+	    left: 0rem;
+	}
+}
+@media (min-width: 768px){
 	.wrapper img {
 	    height: inherit;
 	    position: absolute;
@@ -46,7 +124,7 @@
 	}
 	.wrapper .btn {
 	    position: absolute;
-	    top: 36rem;
+	    top: 0.5rem;
 	    left: 20rem;
 	}
 }
