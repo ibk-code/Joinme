@@ -7,6 +7,7 @@
 	.img2 {
 	    left: 6rem !important;
 	    top: 10rem;
+	    object-fit: cover;
 	    position: absolute !important;
 	    height: 220px !important;
 	    width: 220px !important;
@@ -32,6 +33,7 @@
 	.img2 {
 	    left: 17rem !important;
 	    top: 10rem;
+	    object-fit: cover;
 	    position: absolute !important;
 	    height: 220px !important;
 	    width: 220px !important;

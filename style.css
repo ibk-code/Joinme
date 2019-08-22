@@ -25,6 +25,7 @@ html{
 .img2{
 	left: 31rem !important;
     top: 10rem;
+    object-fit: cover;
     position: absolute !important;
     height: 220px !important;
     width: 220px !important;
